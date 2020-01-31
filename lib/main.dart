@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'modules/auth/login.page.dart';
+import 'modules/teste/amazon.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginPage(),
+      home: Amazon(),
     );
   }
 }
